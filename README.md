@@ -41,10 +41,26 @@ Summary of what we're about to do.
 
 ## Step by Step
 
-* Explanations of the what **and** the why behind each step. Try to include:
-  * higher level concepts
-  * best practices
-
+1. Create a site
+  * Create a new directory for your site and name it whatever you'd like. Don't forget to initialize a Git repository.
+  * Add your first file. Make an `index.html` file and add in the following code:
+```<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Home</title>
+  </head>
+  <body>
+    <h1>Hello World!</h1>
+  </body>
+</html> 
+```
+2. Build the site
+    * We need Jekll to build the site before we can view it. To do this, we can run two commands:
+        * `jekll build` - This will build our static site to a directory called `_site`.
+        * `jekll serve` - Does the same thing except it will rebuild any time you change the site and will run a local server at `http://localhost:4000`.
+    * While developing the site it's better to use `jekyll serve` as it updates with any changes you make.
+    * Go ahead and run `jekyll serve` and go to `http://localhost:4000` in your browser. You should see "Hello World!".
 Remember to explain any notation you are using.
 
 ```javascript
