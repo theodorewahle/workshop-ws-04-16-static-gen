@@ -1,6 +1,6 @@
 # CS52 Workshops:  TITLE OF YOUR WORKSHOP
 
-![](http://i.giphy.com/eUh8NINbZf9Ys.gif)
+![](https://media.giphy.com/media/5wWf7H89PisM6An8UAU/giphy.gif)
 
 Brief motivation here as well as in presentation
 
