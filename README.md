@@ -2,7 +2,7 @@
 
 ![](https://media.giphy.com/media/5wWf7H89PisM6An8UAU/giphy.gif)
 
-Brief motivation here as well as in presentation
+Static site generators allow the entire site to be built at one time on your computer before being put on the server. Static sites respond to requests much faster than dynamic ones, provide improved security since there's nothing dynamic to be exploited, and is better suited at handling traffic surges since it only needs to serve static files. Static sites can be a great solution if your information doesn't need to be constantly updated.
 
 ## Overview
 
