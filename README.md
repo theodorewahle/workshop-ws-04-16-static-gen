@@ -71,25 +71,22 @@ You should see this: `jekyll 3.8.5`
   </body>
 </html> 
 ```
+
 #### 2. Build the site
-    * We need Jekll to build the site before we can view it. To do this, we can run two commands:
-        * `jekll build` - This will build our static site to a directory called `_site`.
-        * `jekll serve` - Does the same thing except it will rebuild any time you change the site and will run a local server at `http://localhost:4000`.
-    * While developing the site it's better to use `jekyll serve` as it updates with any changes you make.
-    * Go ahead and run `jekyll serve` and go to `http://localhost:4000` in your browser. You should see "Hello World!" like so:
+* We need Jekll to build the site before we can view it. To do this, we can run two commands:
+ * `jekll build` - This will build our static site to a directory called `_site`.
+ * `jekll serve` - Does the same thing except it will rebuild any time you change the site and will run a local server a `http://localhost:4000`.
+ * While developing the site it's better to use `jekyll serve` as it updates with any changes you make.
+ * Go ahead and run `jekyll serve` and go to `http://localhost:4000` in your browser. You should see "Hello World!" like so:
 ![screen shots are helpful](img/helloworldworkshop.png)
 
-<<<<<<< HEAD
-####3. Learn Liquid :shower:
-=======
-
 #### 3. Learn Liquid :shower:
->>>>>>> ec89a39256900f7d3e8f7221b030dc2af4f0965e
+
 Liquid is a templating language specific to Jekyll. It has three main parts: objects, tags, and filters.
   ##### * Objects:
-    * Objects are denoted by double curly braces and tell Liquid where to output content. For example, `{{ page.title}}` would output a variable called `page.title` on the page.
+   * Objects are denoted by double curly braces and tell Liquid where to output content. For example, `{{ page.title}}` would output a variable called `page.title` on the page.
   ##### * Tags:
-    *Tags are denoted by curly braces and percent signs: `{%` and `%}`. Tags control the logic and control flow for the project. For example:
+   * Tags are denoted by curly braces and percent signs: `{%` and `%}`. Tags control the logic and control flow for the project. For example:
 
   ```{% if page.show_sidebar %}
     <div class="sidebar">
@@ -99,7 +96,7 @@ Liquid is a templating language specific to Jekyll. It has three main parts: obj
   ```   
 Outputs the sidebar if `page.show_sidebar` is true. 
   ##### * Filters
-    *Filters change the output of a Liquid object. They must used within an output and are separated by a |, much like pipes used in unix. For example:
+   * Filters change the output of a Liquid object. They must used within an output and are separated by a |, much like pipes used in unix. For example:
     ```{{ "hi" | capitalize}}```
     Outputs `Hi`.
 
