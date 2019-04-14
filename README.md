@@ -40,6 +40,8 @@ Summary of what we're about to do.
 * `cd tester`
 * `jekyll serve`
 * Voila! You have a basic jekyll site you can tweak
+![](img/Capture.PNG)
+
 
 1. Create a site
   * Create a new directory for your site and name it whatever you'd like. Don't forget to initialize a Git repository.
