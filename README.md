@@ -1,12 +1,26 @@
-# CS52 Workshops: Introduction to Static Site Generators (Jekyll)
+# CS52 Workshops: Introduction to Static Site Generation with Jekyll
 
-Static site generators allow an entire site to be built in one go on your computer before being put on the server. Static sites respond to requests much faster than dynamic ones, provide improved security since there's nothing dynamic to be exploited, and are better suited at handling traffic surges, as they only need to serve static files. If you are building a site where its information doesn't need to be constantly updated, static sites are a great option.
+The websites we've been building so far (think Lab 1 and 2) fall under the category of static sites. Static sites respond to requests much faster than dynamic ones, provide improved security since there's nothing dynamic to be exploited, and are better suited at handling traffic surges, as they only need to serve static files. If you are building a site where its information doesn't need to be constantly updated, static sites are a great option.
+
+**_*Static site generators*_** allow an entire site to be built in one go on your computer before being put on the server. 
+
+There are many different static site generators out there, but today we’re going to be working with a static site generator called **Jekyll**.
+
+**Jekyll** is the static site generator behind the CS 52 course website, is integrated into GitHub, and is a pretty popular choice among static site generators these days.
 
 ## Overview
 
 ![Alt Text](https://media.giphy.com/media/5wWf7H89PisM6An8UAU/giphy.gif)
 
-Summary of what we're about to do.
+Today we’re going to show you how to generate a static site using Jekyll.
+
+We’ll be going over two different methods of static site generation with Jekyll:
+1. Using Jekyll to building a static site from the ground up
+2. Using Jekyll to turn a pre-existing site into a static site
+
+Our static site will be a ____. After completing this tutorial, you should have an end product that looks like this:
+
+**INSERT IMAGE**
 
 ## Setup
 
