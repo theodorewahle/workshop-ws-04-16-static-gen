@@ -12,34 +12,34 @@ Summary of what we're about to do.
 
 ### Windows
 
-1) Install Chocolatey 
-`@powershell -NoProfile -ExecutionPolicy Bypass -Command "iex ((new-object net.webclient).DownloadString('https://chocolatey.org/install.ps1'))" && SET PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin`
-
-2) Close and reopen command prompt, remember to run it as administrator.
-
-3) Install Ruby: `choco install ruby -y`
-
-4) Repeat 2
-
-5) Install Jekyll: `gem install jekyll`
+1. Install a [Ruby+Devkit](https://rubyinstaller.org/) version . Use default options for installation.
+2. Open a new command prompt window from the start menu, so that changes to the PATH environment variable becomes effective.
+3. Install Jekyll and Bundler via: gem install jekyll bundler
 
 ### Mac 
 
-1) In terminal, install Xcode command line tools: `xcode-select --install`
+1. In terminal, install Xcode command line tools: `xcode-select --install`
 
-2) In terminal, agree to licences `sudo xcodebuild -license`
+2. In terminal, agree to licences `sudo xcodebuild -license`
 
-3) You should have homebrew by now so we're not going over that
+3. You should have homebrew by now so we're not going over that
 
-4) Install Ruby `brew install ruby`
+4. Install Ruby `brew install ruby`
 
-5) Install Jekyll `sudo gem install jekyll`
+5. Install Jekyll `sudo gem install jekyll`
 
 ### Check Jekyll
 
 * `jekyll -v`
 
 ## Step by Step
+
+* Try a fully set-up jekyll template 
+* In terminal/git bash `cd` into your preferred directory
+* `jekyll new tester`
+* `cd tester`
+* `jekyll serve`
+* Voila! You have a basic jekyll site you can tweak
 
 1. Create a site
   * Create a new directory for your site and name it whatever you'd like. Don't forget to initialize a Git repository.
