@@ -20,6 +20,8 @@ We’ll be going over two different methods of static site generation with Jekyl
 
 Our static site will be a ____. After completing this tutorial, you should have an end product that looks like this:
 
+**INSERT IMAGE**
+
 ## Setup
 
 ### Windows
