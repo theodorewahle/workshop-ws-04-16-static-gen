@@ -49,7 +49,7 @@ You should see this: `jekyll 3.8.5`
 ![](img/Capture.PNG)
 
 
-1. Create a site
+#### 1. Create a site
   * Create a new directory for your site and name it whatever you'd like. Don't forget to initialize a Git repository.
   * Add your first file. Make an `index.html` file and add in the following code:
 ```<!doctype html>
@@ -63,7 +63,7 @@ You should see this: `jekyll 3.8.5`
   </body>
 </html> 
 ```
-2. Build the site
+####2. Build the site
     * We need Jekll to build the site before we can view it. To do this, we can run two commands:
         * `jekll build` - This will build our static site to a directory called `_site`.
         * `jekll serve` - Does the same thing except it will rebuild any time you change the site and will run a local server at `http://localhost:4000`.
@@ -76,6 +76,8 @@ Remember to explain any notation you are using.
 ```
 
 ![screen shots are helpful](img/helloworldworkshop.png)
+####3. Liquid :shower:
+Liquid is a templating language specific to Jekyll. It has three main parts: objects, tags, and filters.
 
 :sunglasses: GitHub markdown files [support emoji notation](http://www.emoji-cheat-sheet.com/)
 
