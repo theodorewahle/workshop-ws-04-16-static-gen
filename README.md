@@ -41,6 +41,7 @@ Summary of what we're about to do.
 * `jekyll serve`
 * Voila! You have a basic jekyll site you can tweak
 
+
 1. Create a site
   * Create a new directory for your site and name it whatever you'd like. Don't forget to initialize a Git repository.
   * Add your first file. Make an `index.html` file and add in the following code:
