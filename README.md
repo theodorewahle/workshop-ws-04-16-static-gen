@@ -40,7 +40,7 @@ Summary of what we're about to do.
 * `cd tester`
 * `jekyll serve`
 * Voila! You have a basic jekyll site you can tweak
-![](img/Capture.png)
+![](img/Capture.PNG)
 
 
 1. Create a site
