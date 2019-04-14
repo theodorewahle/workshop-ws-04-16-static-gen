@@ -62,16 +62,28 @@ You should see this: `jekyll 3.8.5`
         * `jekll build` - This will build our static site to a directory called `_site`.
         * `jekll serve` - Does the same thing except it will rebuild any time you change the site and will run a local server at `http://localhost:4000`.
     * While developing the site it's better to use `jekyll serve` as it updates with any changes you make.
-    * Go ahead and run `jekyll serve` and go to `http://localhost:4000` in your browser. You should see "Hello World!".
-Remember to explain any notation you are using.
-
-```javascript
-/* and use code blocks for any code! */
-```
-
+    * Go ahead and run `jekyll serve` and go to `http://localhost:4000` in your browser. You should see "Hello World!" like so:
 ![screen shots are helpful](img/helloworldworkshop.png)
-####3. Liquid :shower:
+
+
+####3. Learn Liquid :shower:
 Liquid is a templating language specific to Jekyll. It has three main parts: objects, tags, and filters.
+  #####* Objects:
+    * Objects are denoted by double curly braces and tell Liquid where to output content. For example, `{{ page.title}}` would output a variable called `page.title` on the page.
+  #####* Tags:
+    *Tags are denoted by curly braces and percent signs: `{%` and `%}`. Tags control the logic and control flow for the project. For example:
+
+    ```{% if page.show_sidebar %}
+  <div class="sidebar">
+    sidebar content
+  </div>
+{% endif %}
+```   
+Outputs the sidebar if `page.show_sidebar` is true. 
+  #####* Filters
+    *Filters change the output of a Liquid object. They must used within an output and are separated by a |, much like pipes used in unix. For example:
+    ```{{ "hi" | capitalize}}```
+    Outputs `Hi`.
 
 :sunglasses: GitHub markdown files [support emoji notation](http://www.emoji-cheat-sheet.com/)
 
