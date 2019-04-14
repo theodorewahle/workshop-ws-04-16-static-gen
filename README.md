@@ -40,6 +40,8 @@ Our static site will be a ____. After completing this tutorial, you should have 
 
 4. Install Jekyll `sudo gem install jekyll`
 
+5. Install Jekyll Bundler `sudo gem install bundler`
+
 ### Check Jekyll
 
 * `jekyll -v`
