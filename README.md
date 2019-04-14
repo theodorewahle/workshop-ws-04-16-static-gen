@@ -139,4 +139,8 @@ Here's a resource for [github markdown](https://guides.github.com/features/maste
 ## Resources
 
 * https://learn.cloudcannon.com/jekyll-setup/
-* 
+
+For formatting inspiration:
+* https://github.com/dartmouth-cs52-19S/workshop-ws-04-19-css
+* https://github.com/dartmouth-cs52-19S/workshop-fancy-css-workshop
+
