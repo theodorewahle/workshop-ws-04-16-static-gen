@@ -12,7 +12,13 @@ There are many different static site generators out there, but today we’re goi
 
 ![Alt Text](https://media.giphy.com/media/5wWf7H89PisM6An8UAU/giphy.gif)
 
-Summary of what we're about to do.
+Today we’re going to show you how to generate a static site using Jekyll.
+
+We’ll be going over two different methods of static site generation with Jekyll:
+1. Using Jekyll to building a static site from the ground up
+2. Using Jekyll to turn a pre-existing site into a static site
+
+Our static site will be a ____. After completing this tutorial, you should have an end product that looks like this:
 
 ## Setup
 
