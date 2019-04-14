@@ -67,7 +67,7 @@ Remember to explain any notation you are using.
 /* and use code blocks for any code! */
 ```
 
-![screen shots are helpful](img/screenshot.png)
+![screen shots are helpful](img/helloworldworkshop.png)
 
 :sunglasses: GitHub markdown files [support emoji notation](http://www.emoji-cheat-sheet.com/)
 
