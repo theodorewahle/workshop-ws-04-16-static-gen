@@ -1,10 +1,10 @@
 # CS52 Workshops: Introduction to Static Site Generators (Jekyll)
 
-![](https://media.giphy.com/media/5wWf7H89PisM6An8UAU/giphy.gif)
-
 Static site generators allow an entire site to be built in one go on your computer before being put on the server. Static sites respond to requests much faster than dynamic ones, provide improved security since there's nothing dynamic to be exploited, and are better suited at handling traffic surges, as they only need to serve static files. If you are building a site where its information doesn't need to be constantly updated, static sites are a great option.
 
 ## Overview
+
+[Alt Text](https://media.giphy.com/media/5wWf7H89PisM6An8UAU/giphy.gif)
 
 Summary of what we're about to do.
 
