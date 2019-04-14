@@ -12,9 +12,9 @@ There are many different static site generators out there, but today we’re goi
 
 ![Alt Text](https://media.giphy.com/media/5wWf7H89PisM6An8UAU/giphy.gif)
 
-Today we’re going to show you how to generate a static site using Jekyll.
+Today we’re going to show you how to generate a static sites using Jekyll.
 
-We’ll be going over two different methods of static site generation with Jekyll:
+We’ll be going over two different use cases of Jekyll for static site generation:
 1. Using Jekyll's templates to building a static site from the ground up
 2. Using Jekyll to turn a pre-existing site into a static site
 
@@ -46,16 +46,35 @@ Our static site will be a ____. After completing this tutorial, you should have 
 
 You should see this: `jekyll 3.8.5`
 
-## Part 1: Using Jekyll Templates to Build a Static Site
+## Use Case #1: Using Jekyll Templates to Build a Static Site
 
-* Try a fully set-up jekyll template 
-* In terminal/git bash `cd` into your preferred directory
-* `jekyll new tester`
-* `cd tester`
+Let's say you want to create a static site from scratch. Jekyll's templates allow you to quickly generate a static site. And now, we're going to do just that.
+
+1. Use the command line to make a new directory. You will be placing all the files for your static site into this directory.
+
+* `mkdir [insert_your_directory_name]` 
+ 
+2. `cd` into your newly created directory.
+
+3. Create your Jekyll site with the following command:
+
+* `jekyll new template_site`
+
+4. `cd` into the directory with your new site:
+
+* `cd template_site`
+
+5. Host it locally!
+
 * `jekyll serve`
-* Voila! You have a basic jekyll site you can tweak
+
+6. Visit localhost:4000 to check out your new site! 
+
 ![](img/Capture.PNG)
 
+And, voila! You now have a basic Jekyll site you can tweak at your own leisure.
+
+## Use Case #2: Using Jekyll to Turn a Pre-Existing Site into a Static Site
 
 #### 1. Create a site
   * Create a new directory for your site and name it whatever you'd like. Don't forget to initialize a Git repository.
