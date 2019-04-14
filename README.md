@@ -71,7 +71,7 @@ You should see this: `jekyll 3.8.5`
   </body>
 </html> 
 ```
-####2. Build the site
+#### 2. Build the site
     * We need Jekll to build the site before we can view it. To do this, we can run two commands:
         * `jekll build` - This will build our static site to a directory called `_site`.
         * `jekll serve` - Does the same thing except it will rebuild any time you change the site and will run a local server at `http://localhost:4000`.
@@ -80,21 +80,21 @@ You should see this: `jekyll 3.8.5`
 ![screen shots are helpful](img/helloworldworkshop.png)
 
 
-####3. Learn Liquid :shower:
+#### 3. Learn Liquid :shower:
 Liquid is a templating language specific to Jekyll. It has three main parts: objects, tags, and filters.
-  #####* Objects:
+  ##### * Objects:
     * Objects are denoted by double curly braces and tell Liquid where to output content. For example, `{{ page.title}}` would output a variable called `page.title` on the page.
-  #####* Tags:
+  ##### * Tags:
     *Tags are denoted by curly braces and percent signs: `{%` and `%}`. Tags control the logic and control flow for the project. For example:
 
-    ```{% if page.show_sidebar %}
-  <div class="sidebar">
-    sidebar content
-  </div>
-{% endif %}
-```   
+  ```{% if page.show_sidebar %}
+    <div class="sidebar">
+      sidebar content
+    </div>
+  {% endif %}
+  ```   
 Outputs the sidebar if `page.show_sidebar` is true. 
-  #####* Filters
+  ##### * Filters
     *Filters change the output of a Liquid object. They must used within an output and are separated by a |, much like pipes used in unix. For example:
     ```{{ "hi" | capitalize}}```
     Outputs `Hi`.
