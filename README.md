@@ -4,7 +4,7 @@ Static site generators allow an entire site to be built in one go on your comput
 
 ## Overview
 
-[Alt Text](https://media.giphy.com/media/5wWf7H89PisM6An8UAU/giphy.gif)
+![Alt Text](https://media.giphy.com/media/5wWf7H89PisM6An8UAU/giphy.gif)
 
 Summary of what we're about to do.
 
