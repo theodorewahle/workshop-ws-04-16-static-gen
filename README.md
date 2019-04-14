@@ -92,9 +92,9 @@ And, voila! You now have a basic Jekyll site you can tweak at your own leisure.
 ```
 
 #### 2. Build the site
-* We need Jekll to build the site before we can view it. To do this, we can run two commands:
- * `jekll build` - This will build our static site to a directory called `_site`.
- * `jekll serve` - Does the same thing except it will rebuild any time you change the site and will run a local server a `http://localhost:4000`.
+* We need Jekyll to build the site before we can view it. To do this, we can run two commands:
+ * `jekyll build` - This will build our static site to a directory called `_site`.
+ * `jekyll serve` - Does the same thing except it will rebuild any time you change the site and will run a local server a `http://localhost:4000`.
  * While developing the site it's better to use `jekyll serve` as it updates with any changes you make.
  * Go ahead and run `jekyll serve` and go to `http://localhost:4000` in your browser. You should see "Hello World!" like so:
 ![screen shots are helpful](img/helloworldworkshop.png)
