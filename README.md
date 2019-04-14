@@ -20,17 +20,17 @@ Summary of what we're about to do.
 
 1. In terminal, install Xcode command line tools: `xcode-select --install`
 
-2. In terminal, agree to licences `sudo xcodebuild -license`
+2. You should have homebrew by now so we're not going over that
 
-3. You should have homebrew by now so we're not going over that
+3. Install Ruby `brew install ruby`
 
-4. Install Ruby `brew install ruby`
-
-5. Install Jekyll `sudo gem install jekyll`
+4. Install Jekyll `sudo gem install jekyll`
 
 ### Check Jekyll
 
 * `jekyll -v`
+
+You should see this: `jekyll 3.8.5`
 
 ## Step by Step
 
