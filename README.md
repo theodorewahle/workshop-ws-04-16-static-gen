@@ -15,7 +15,7 @@ There are many different static site generators out there, but today we’re goi
 Today we’re going to show you how to generate a static site using Jekyll.
 
 We’ll be going over two different methods of static site generation with Jekyll:
-1. Using Jekyll to building a static site from the ground up
+1. Using Jekyll's templates to building a static site from the ground up
 2. Using Jekyll to turn a pre-existing site into a static site
 
 Our static site will be a ____. After completing this tutorial, you should have an end product that looks like this:
@@ -28,7 +28,7 @@ Our static site will be a ____. After completing this tutorial, you should have 
 
 1. Install a [Ruby+Devkit](https://rubyinstaller.org/) version . Use default options for installation.
 2. Open a new command prompt window from the start menu, so that changes to the PATH environment variable becomes effective.
-3. Install Jekyll and Bundler via: gem install jekyll bundler
+3. Install Jekyll and Bundler via: `gem install jekyll bundler`
 
 ### Mac 
 
@@ -46,7 +46,7 @@ Our static site will be a ____. After completing this tutorial, you should have 
 
 You should see this: `jekyll 3.8.5`
 
-## Step by Step
+## Part 1: Using Jekyll Templates to Build a Static Site
 
 * Try a fully set-up jekyll template 
 * In terminal/git bash `cd` into your preferred directory
@@ -78,7 +78,6 @@ You should see this: `jekyll 3.8.5`
     * While developing the site it's better to use `jekyll serve` as it updates with any changes you make.
     * Go ahead and run `jekyll serve` and go to `http://localhost:4000` in your browser. You should see "Hello World!" like so:
 ![screen shots are helpful](img/helloworldworkshop.png)
-
 
 ####3. Learn Liquid :shower:
 Liquid is a templating language specific to Jekyll. It has three main parts: objects, tags, and filters.
