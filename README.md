@@ -74,7 +74,56 @@ Let's say you want to create a static site from scratch. Jekyll's templates allo
 
 ![](img/Capture.PNG)
 
-And, voila! You now have a basic Jekyll site you can tweak at your own leisure.
+And, voila! You now have a basic Jekyll site you can tweak at your own leisure. That's all! (we wish)
+
+Now let's try making a couple modifications to it 
+
+### 1. Adding pages
+
+* Your directory should look a little something like this:
+
+* Now let's try adding that page - Ready for some HTML!? No? That's fine cause we won't be touching ANY HTML to add a page! Begin by making a new markdown (`.md`) file. I think a ***contact*** page would be useful, don't you? 
+* Now copy the following code segment:
+```
+---
+layout: page
+title: Contact
+permalink: /contact/
+---
+
+Pudding chocolate bar fruitcake dessert fruitcake. Macaroon tart jelly-o apple pie bear claw. Chupa chups topping macaroon wafer halvah dessert jujubes. Dessert jelly beans chocolate cake. Pudding danish chocolate bar. Pudding cake soufflé I love carrot cake.
+
+```
+* Change the content as you'd like and hit that save button! and now open the `_site` folder, you should notice a `Contact` folder containing an html file - yup that's it - you just did that all through a tiny markdown file! Feel free to add any more pages as you'd like!
+
+* BUT WAIT! Don't you want to place/reorder your pages on the navbar??? Just add one line to your `.md` file (for both `About` and `Contact`), below `permalink: ` :
+`navigation_weight: `
+And enter in the position on the navbar you'd like it to be (index starting from one)
+
+### 2. Adding Posts
+
+* The process for adding new posts is very similar to that of sites, start by opening the the `_posts` folder. 
+* Create a new file with the title: `YYYY-MM-DD-file-name-here.markdown` and add the following code
+```
+---
+layout: post
+title:  "YOUR TITLE HERE"
+date:   YOUR-DATE-HERE 11:10:16 -0400
+categories: jekyll update
+---
+Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to 
+
+{% highlight ruby %}
+def print_hi(name)
+  puts "Hi, #{name}"
+end
+print_hi('Tom')
+#=> prints 'Hi, Tom' to STDOUT.
+{% endhighlight %}
+
+```
+
+* Modify the content as you like and hit save! Check your website again, do you see your post!
 
 ## Use Case #2: Using Jekyll to Turn a Pre-Existing Site into a Static Site
 
