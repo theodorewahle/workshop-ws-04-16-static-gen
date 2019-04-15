@@ -244,9 +244,9 @@ For formatting inspiration:
 ## Research
 
 * https://hackernoon.com/the-advantages-of-building-dynamic-websites-bc914071a155
-*https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages#what-are-static-sites-jekyll-etc--why-might-i-care-
-*https://learn.cloudcannon.com/jekyll/introduction-to-jekyll-layouts/
-*https://help.github.com/en/articles/using-a-static-site-generator-other-than-jekyll
-*https://www.everystep-automation.com/web-applications-vs-static-websites-whats-difference/
-*https://www.sitepoint.com/7-reasons-use-static-site-generator/
-*https://rocketmedia.com/blog/static-vs-dynamic-websites
+* https://programminghistorian.org/en/lessons/building-static-sites-with-jekyll-github-pages#what-are-static-sites-jekyll-etc--why-might-i-care-
+* https://learn.cloudcannon.com/jekyll/introduction-to-jekyll-layouts/
+* https://help.github.com/en/articles/using-a-static-site-generator-other-than-jekyll
+* https://www.everystep-automation.com/web-applications-vs-static-websites-whats-difference/
+* https://www.sitepoint.com/7-reasons-use-static-site-generator/
+* https://rocketmedia.com/blog/static-vs-dynamic-websites
