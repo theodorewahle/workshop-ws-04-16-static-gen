@@ -125,6 +125,27 @@ print_hi('Tom')
 
 * Modify the content as you like and hit save! Check your website again, do you see your post!
 
+### 3. Using CSS, SASS JS, images and other assets 
+
+* Just add the asset to the folder `_site\assets\` 
+* If it's a stylesheet reference it in `<head>` in `_layouts/default.html`
+```
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/assets/css/styles.css">
+  </head>
+  <body>
+    {% include navigation.html %}
+    {{ content }}
+  </body>
+</html>
+```
+* That's it.
+* No seriously, that's it. 
+
 
 ## Use Case #2: Using Jekyll to Turn a Pre-Existing Site into a Static Site
 
@@ -224,6 +245,13 @@ Here's a resource for [github markdown](https://guides.github.com/features/maste
 ## Summary / What you Learned
 
 * [ ] can be checkboxes
+
+## Extra Credit
+
+* Add ***cooooollll*** [plugins](https://jekyllrb.com/docs/plugins/) to your jekyll site
+* Try Jekyll with a different starting template 
+* Make your style ~groovy~ awesome.
+
 
 ## Reflection
 
