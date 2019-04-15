@@ -1,0 +1,61 @@
+---
+site_name: Static Site Demo
+navbar_links:
+    - Link 1
+    - Link 2
+    - Link 3
+image_links:
+    - https://cdn.pixabay.com/photo/2019/04/09/15/55/landscape-4114839_1280.jpg
+    - https://cdn.pixabay.com/photo/2019/04/02/10/58/oldtimer-4097480_1280.jpg
+    - https://cdn.pixabay.com/photo/2019/03/31/21/43/the-dark-hedges-4094148_1280.jpg
+    - https://cdn.pixabay.com/photo/2019/03/31/19/49/mountain-4093853_1280.jpg
+    - https://cdn.pixabay.com/photo/2019/04/11/12/34/sea-4119698_1280.jpg
+    - https://cdn.pixabay.com/photo/2019/04/03/18/37/oldtimer-4101076_1280.jpg
+    - https://cdn.pixabay.com/photo/2019/04/07/11/24/landscape-4109455_1280.jpg
+    - https://cdn.pixabay.com/photo/2019/04/10/18/08/black-4117714_1280.jpg
+    - https://cdn.pixabay.com/photo/2019/04/07/11/24/spa-4109456_1280.jpg
+show_bio: false
+---
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link href="style.css" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Home</title>
+  </head>
+  <body>
+        <header>
+                <h1>{{page.site_name}}</h1>
+                <nav id="navbar">
+                    {% for link in page.navbar_links %}
+                        <a  href="#">{{link}}</a>
+                    {% endfor %}
+                </nav>
+        </header>
+        <main>
+                <h1>Photo Gallery</h1>
+                <div id="images-container">
+                    {% for url in page.image_links %}
+                        <img src="{{url}}">
+                    {% endfor %}
+                </div>
+                {% if page.show_bio %}
+                    <div id="bio-container">
+                        <h2>Biography</h2>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Proin tincidunt nisl at neque blandit gravida. Proin urna arcu, consequat sit amet mi in, condimentum dapibus dolor. Mauris sodales euismod leo, a eleifend magna lobortis sed. Ut ac nibh ligula. Morbi suscipit arcu dui, sit amet rutrum turpis imperdiet ut. Sed egestas ligula ac dignissim ultrices. Morbi porttitor et diam vel gravida. Morbi sollicitudin velit in interdum auctor. Suspendisse lacinia viverra libero, et laoreet arcu feugiat id. In ut ex ex. Integer viverra augue vitae fringilla tempor. Sed placerat massa non dui aliquet pulvinar. Etiam elementum in ex eu egestas. Nam eget ornare quam. Nulla euismod ex ante, tincidunt dignissim dui consectetur ut. Nunc consectetur justo vel augue rhoncus, in elementum est vestibulum. Integer pellentesque dolor vel pellentesque condimentum. Nunc suscipit dui vel varius ultrices. Vestibulum rutrum vulputate hendrerit. Fusce vitae convallis dolor.
+                        </p>
+                    </div>
+                {% endif %}
+        </main>
+        <footer>
+                <p>CS52 Workshop</p>
+                <h1>Static Site Generators</h1>
+                <nav>
+                    <p>Link 1</p>
+                    <p>Link 2</p>
+                    <p>Link 3</p>
+                </div>    
+        </footer>
+  </body>
+</html> 

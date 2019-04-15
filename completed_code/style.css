@@ -42,7 +42,7 @@ main {
 #images-container img {
     display: flex;
     margin: .16vw 0 .16vw 0;
-    width: 33vw;
+    width: 33%;
     min-width: 300px;
     height: 25vh;
     min-height: 225px;
