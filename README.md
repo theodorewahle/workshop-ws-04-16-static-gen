@@ -60,7 +60,7 @@ Let's say you want to create a static site from scratch. Jekyll's templates allo
 
 * `mkdir [insert_your_directory_name]` :dizzy:
  
-2. `cd` into your newly created directory.
+2. `cd` into your newly created directory. :dizzy:
 
 3. Create your Jekyll site with the following command:
 
