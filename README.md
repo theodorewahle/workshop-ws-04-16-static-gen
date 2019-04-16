@@ -83,6 +83,9 @@ Now let's try making a couple modifications to it
 * Your directory should look a little something like this:
 
 * Now let's try adding that page - Ready for some HTML!? No? That's fine cause we won't be touching ANY HTML to add a page! Begin by making a new markdown (`.md`) file. I think a ***contact*** page would be useful, don't you? 
+
+* `touch contact.md`
+
 * Now copy the following code segment:
 ```
 ---
@@ -96,9 +99,20 @@ Pudding chocolate bar fruitcake dessert fruitcake. Macaroon tart jelly-o apple p
 ```
 * Change the content as you'd like and hit that save button! and now open the `_site` folder, you should notice a `Contact` folder containing an html file - yup that's it - you just did that all through a tiny markdown file! Feel free to add any more pages as you'd like!
 
-* BUT WAIT! Don't you want to place/reorder your pages on the navbar??? Just add one line to your `.md` file (for both `About` and `Contact`), below `permalink: ` :
+* Look in terminal at your template site directory and you should have a bunch of files. Theser were all automatically generated to make your life easier! Serve the website again and direct your attention to the beautiful nav bar at the top.
+
+* Don't you want to place/reorder your pages on the navbar??? Just add one line to your `.md` file (for both `About` and `Contact`), below `permalink: ` :
 `navigation_weight: `
-And enter in the position on the navbar you'd like it to be (index starting from one)
+And enter in the position on the navbar you'd like it to be (index starting from one). This tells the navbar which link to positon goes first in your navbar!
+
+```
+---
+layout: page
+title: Contact
+permalink: /contact/
+navigation_weight: [insert weight here]
+---
+```
 
 ### 2. Adding Posts
 
