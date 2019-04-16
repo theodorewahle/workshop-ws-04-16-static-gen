@@ -138,7 +138,8 @@ print_hi('Tom')
 
 ### 4. Change the config to change the header, site title, footer, etc
 
-* Make changes as below in `config.yml`
+* Make changes as below in `config.yml`. Try to customize the content of this website further! :sunglasses:
+
 ![](img/u13.PNG)
 
 ## Use Case #2: Using Jekyll to Turn a Pre-Existing Site into a Static Site
