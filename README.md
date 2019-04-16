@@ -54,7 +54,7 @@ You should see this: `jekyll 3.8.5`
 
 ## Use Case #1: Using Jekyll Templates to Build a Static Site
 
-Let's say you want to create a static site from scratch. Jekyll's templates allow you to quickly generate a static site. And now, we're going to do just that.
+Let's say you want to create a static site from scratch. Jekyll's templates allow you to quickly generate a static site. And now, we're going to do just that! [Here's](http://workshopstatic.surge.sh/) a simple website we hacked up in less than 10 minutes using jekyll. 
 
 1. Use the command line to make a new directory. You will be placing all the files for your static site into this directory.
 
@@ -237,8 +237,9 @@ image_links:
 
 ## Deploy
 
-* serve it: `jekyll serve`
-*  build it: `jekyll build`
+* Serve the website to ensure it's looking good : `jekyll serve`
+* Now stop the local server: `Ctrl + C`
+* Build it: `jekyll build`
 * Then publish the project to Surge `surge _site`, or whatever your prefer (like GitHub Pages)
 * D E P L O Y E D :sunglasses:
 
