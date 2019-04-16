@@ -60,7 +60,7 @@ Let's say you want to create a static site from scratch. Jekyll's templates allo
 
 * `mkdir [insert_your_directory_name]` :dizzy:
  
-2. `cd` into your newly created directory. :dizzy:
+2. `cd` into your newly created directory.
 
 3. Create your Jekyll site with the following command:
 
@@ -103,7 +103,7 @@ Pudding chocolate bar fruitcake dessert fruitcake. Macaroon tart jelly-o apple p
 ```
 * Change the content as you'd like and hit that save button! and now open the `_site` folder, you should notice a `Contact` folder containing an html file - yup that's it - you just did that all through a tiny markdown file! Feel free to add any more pages as you'd like!
 
-* Look in terminal at your template site directory and you should have a bunch of files. Theser were all automatically generated to make your life easier! 
+* Look in terminal at your template site directory and you should have a bunch of files. These were all automatically generated to make your life easier! 
 
 
 ### 2. Adding Posts
