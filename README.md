@@ -231,6 +231,9 @@ image_links:
   </nav>
 </header>
 ```
+  ##### Customization
+  * Try playing around with Liquid some more to further customize this gallery site! :sparkles:
+
 
 ## Deploy
 
