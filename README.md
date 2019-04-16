@@ -240,7 +240,11 @@ image_links:
 
 Here's a resource for [github markdown](https://guides.github.com/features/mastering-markdown/).
 
+## Deploy
 
+* First Build it: `jekyll build`
+* Then publish the project to Surge `surge _site`, or whatever your prefer (like GitHub Pages)
+* D E P L O Y E D
 
 ## Summary / What you Learned
 
