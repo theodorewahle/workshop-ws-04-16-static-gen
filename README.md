@@ -114,6 +114,9 @@ navigation_weight: [insert weight here]
 ---
 ```
 
+Now we have to go into our html and change the navigation...
+
+
 ### 2. Adding Posts
 
 * The process for adding new posts is very similar to that of sites, start by opening the the `_posts` folder. 
@@ -274,8 +277,10 @@ Here's a resource for [github markdown](https://guides.github.com/features/maste
 
 ## Reflection
 
-* What are the benefits of using a static site?
-* Can you think of some times when it might be more beneficial to use a static site than a dynamic site?
+*2 questions for the workshop participants to answer (very short answer) when they submit the workshop. These should try to get at something core to the workshop, the what and the why.*
+
+* [ ] 2 reflection questions
+* [ ] 2 reflection questions
 
 
 ## Resources
