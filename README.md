@@ -18,9 +18,13 @@ We’ll be going over two different use cases of Jekyll for static site generati
 1. Using Jekyll's templates to building a static site from the ground up
 2. Using Jekyll to turn a pre-existing site into a static site
 
-Our static site will be a ____. After completing this tutorial, you should have an end product that looks like this:
+For use case #1, we will be making a personal portfolio website.
 
-**INSERT IMAGE**
+**INSERT COMPLETED USE CASE 1 IMAGE**
+
+For use case #2, we'll be transforming a typical HTML & CSS photo gallery site into a Jekyll site, and updating some functionalities on the site using Liquid.
+
+![](img/use2screenshot.png)
 
 ## Setup
 
