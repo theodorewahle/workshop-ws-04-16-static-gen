@@ -1,10 +1,10 @@
 # CS52 Workshops: Introduction to Static Site Generation with Jekyll
 
-The websites we've been building so far (think Lab 1 and 2) fall under the category of static sites. 
+The websites we've been building so far (think Lab 1 and 2) fall under the category of static sites.
 
 Static sites respond to requests much faster :horse_racing: than dynamic ones, provide improved security :warning: since there's nothing dynamic to be exploited, and are better suited at handling traffic surges  :traffic_light:, as they only need to serve static files. If you are building a site where its information doesn't need to be constantly updated, static sites are a great option. :raised_hands:
 
-**_*Static site generators*_** allow an entire site to be built in one go on your computer before being put on the server. 
+**_*Static site generators*_** allow an entire site to be built in one go on your computer before being put on the server.
 
 There are many different static site generators out there, but today we’re going to be working with a static site generator called **Jekyll**. :sparkles:
 
@@ -34,7 +34,7 @@ For use case #2, we'll be transforming a typical HTML & CSS photo gallery site i
 2. Open a new command prompt window from the start menu, so that changes to the PATH environment variable becomes effective.
 3. Install Jekyll and Bundler via: `gem install jekyll bundler` :gem:
 
-### Mac 
+### Mac
 
 1. In terminal, install Xcode command line tools: `xcode-select --install` :gem:
 
@@ -54,12 +54,12 @@ You should see this: `jekyll 3.8.5`
 
 ## Use Case #1: Using Jekyll Templates to Build a Static Site
 
-Let's say you want to create a static site from scratch. Jekyll's templates allow you to quickly generate a static site. And now, we're going to do just that! [Here's](http://workshopstatic.surge.sh/) a simple website we hacked up in less than 10 minutes using jekyll. 
+Let's say you want to create a static site from scratch. Jekyll's templates allow you to quickly generate a static site. And now, we're going to do just that! [Here's](http://workshopstatic.surge.sh/) a simple website we hacked up in less than 10 minutes using jekyll.
 
 1. Use the command line to make a new directory. You will be placing all the files for your static site into this directory.
 
 * `mkdir [insert_your_directory_name]` :dizzy:
- 
+
 2. `cd` into your newly created directory.
 
 3. Create your Jekyll site with the following command:
@@ -74,21 +74,21 @@ Let's say you want to create a static site from scratch. Jekyll's templates allo
 
 * `jekyll serve` :dizzy:
 
-6. Visit localhost:4000 to check out your new site! 
+6. Visit localhost:4000 to check out your new site!
 
 ![](img/Capture.PNG)
 
 And, voila! You now have a basic Jekyll site you can tweak at your own leisure. That's all! (we wish)
 
-Now let's try making a couple modifications to it 
+Now let's try making a couple modifications to it
 
 ### 1. Adding pages
 
 * Your directory should look a little something like this:
 
-* Now let's try adding that page - Ready for some HTML!? No? That's fine cause we won't be touching ANY HTML to add a page! Begin by making a new markdown (`.md`) file. I think a ***contact*** page would be useful, don't you? 
+* Now let's try adding that page - Ready for some HTML!? No? That's fine cause we won't be touching ANY HTML to add a page! Begin by making a new markdown (`.md`) file. I think a ***contact*** page would be useful, don't you?
 
-* Create a contact page: `touch contact.md` 
+* Create a contact page: `touch contact.md`
 
 * Now copy the following code segment:
 ```
@@ -103,13 +103,13 @@ Pudding chocolate bar fruitcake dessert fruitcake. Macaroon tart jelly-o apple p
 ```
 * Change the content as you'd like and hit that save button! and now open the `_site` folder, you should notice a `Contact` folder containing an html file - yup that's it - you just did that all through a tiny markdown file! Feel free to add any more pages as you'd like!
 
-* Look in terminal at your template site directory and you should have a bunch of files. These were all automatically generated to make your life easier! 
+* Look in terminal at your template site directory and you should have a bunch of files. These were all automatically generated to make your life easier!
 
 
 ### 2. Adding Posts
 
 * The process for adding new posts is very similar to that of sites, start by opening the the `_posts` folder.
-* Create a new file with the title: `YYYY-MM-DD-file-name-here.markdown` and add the following code 
+* Create a new file with the title: `YYYY-MM-DD-file-name-here.markdown` and add the following code
 ```
 ---
 layout: post
@@ -117,7 +117,7 @@ title:  "YOUR TITLE HERE"
 date:   YOUR-DATE-HERE 11:10:16 -0400
 categories: jekyll update
 ---
-Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to 
+Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to Potato Potah-to
 
 {% highlight ruby %}
 def print_hi(name)
@@ -131,7 +131,7 @@ print_hi('Tom')
 
 * Modify the content as you like and hit save! Check your website again, do you see your post!
 
-### 3. Using CSS, SASS JS, images and other assets 
+### 3. Using CSS, SASS JS, images and other assets
 
 * Just add the asset to the folder `assets\`, you may have to create an `assets` folder in your root directory
 * Try adding an image to your `index.md` right now!
@@ -150,10 +150,10 @@ print_hi('Tom')
 
 #### 2. Build the site
 * We need Jekyll to build the site before we can view it. To do this, we can run two commands:
- * `jekyll build` - This will build our static site to a directory called `_site`. 
+ * `jekyll build` - This will build our static site to a directory called `_site`.
  * `jekyll serve` - Does the same thing except it will rebuild any time you change the site and will run a local server a `http://localhost:4000`. :dizzy:
  * While developing the site it's better to use `jekyll serve` as it updates with any changes you make.
- * Go ahead and run `jekyll serve` and go to `http://localhost:4000` in your browser. You should see the site build and styled as it is below, though note that you will likely have different images, as the images are randomly pulled in from a photo database: 
+ * Go ahead and run `jekyll serve` and go to `http://localhost:4000` in your browser. You should see the site build and styled as it is below, though note that you will likely have different images, as the images are randomly pulled in from a photo database:
 
 ![](img/use2screenshot.png)
 
@@ -178,9 +178,9 @@ site_name: Static Site Demo
   </header>
 ```
  * Awesome! Now if we had multiple pages or repeated the same element, we only have to change it in one place
- 
+
   ##### Tags:
-   * Tags are denoted by curly braces and percent signs: `{%` and `%}`. Tags control the logic and control flow for the project.
+   * Tags are denoted by curly braces and percent signs. Tags control the logic and control flow for the project.
    * We'll start by implementing a for loop into our webpage to make laying out our images easier
    * First let's add the links to our images as a list in the same location we added our `site_name` variable:
  ```
@@ -207,7 +207,7 @@ image_links:
 </div>
 ```
   * Our output has remained the same, but now we can add, remove, or change images with ease!
-  
+
   * Tags also make it possible for us to utilize if statements and control how the webpage is being displayed, let's try hiding our biography section
   * First we'll add a variable to the top of our html called `show_bio` and set it to `false`
   * Next we can surround our `bio-container` with an if statement:
@@ -219,9 +219,9 @@ image_links:
 {% endif %}
 ```
   * This now allows us to decide whether or not we want to show our biography by simply adjusting the `show_bio` variable
-  
+
   ##### Filters
-   * Filters change the output of a Liquid object. They must used within an output and are separated by a |, much like pipes used in unix. 
+   * Filters change the output of a Liquid object. They must used within an output and are separated by a |, much like pipes used in unix.
    * Let's convert our `site_name` to uppercase letters by utilizing a pipe in the header file:
 ```
 <header>
@@ -254,7 +254,7 @@ image_links:
 ## Extra Credit
 
 * Add ***cooooollll*** [plugins](https://jekyllrb.com/docs/plugins/) to your jekyll site
-* Try Jekyll with a different starting template 
+* Try Jekyll with a different starting template
 * Make your style ~groovy~ awesome.
 
 
