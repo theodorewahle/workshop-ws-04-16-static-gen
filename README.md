@@ -32,7 +32,7 @@ For use case #2, we'll be transforming a typical HTML & CSS photo gallery site i
 
 1. Install a [Ruby+Devkit](https://rubyinstaller.org/) version . Use default options for installation.
 2. Open a new command prompt window from the start menu, so that changes to the PATH environment variable becomes effective.
-3. Install Jekyll and Bundler via: `gem install jekyll bundler`
+3. Install Jekyll and Bundler via: `gem install jekyll bundler` :gem:
 
 ### Mac 
 
@@ -42,9 +42,9 @@ For use case #2, we'll be transforming a typical HTML & CSS photo gallery site i
 
 3. Install Ruby `brew install ruby`
 
-4. Install Jekyll `sudo gem install jekyll`
+4. Install Jekyll `sudo gem install jekyll` :gem:
 
-5. Install Jekyll Bundler `sudo gem install bundler`
+5. Install Jekyll Bundler `sudo gem install bundler` :gem:
 
 ### Check Jekyll
 
