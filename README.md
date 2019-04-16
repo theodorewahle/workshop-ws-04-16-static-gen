@@ -24,7 +24,7 @@ For use case #1, we will be making a personal portfolio website.
 
 For use case #2, we'll be transforming a typical HTML & CSS photo gallery site into a Jekyll site, and updating some functionalities on the site using Liquid.
 
-![](img/use2screenshot.png)
+![](img/overviewuse2screenshot.png)
 
 ## Setup
 
