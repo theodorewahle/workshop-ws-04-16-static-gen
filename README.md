@@ -66,7 +66,7 @@ Let's say you want to create a static site from scratch. Jekyll's templates allo
 
 * `jekyll new template_site` :dizzy:
 
-4. `cd` into the directory with your new site: :dizzy:
+4. `cd` into the directory with your new site:
 
 * `cd template_site` :dizzy:
 
@@ -103,22 +103,7 @@ Pudding chocolate bar fruitcake dessert fruitcake. Macaroon tart jelly-o apple p
 ```
 * Change the content as you'd like and hit that save button! and now open the `_site` folder, you should notice a `Contact` folder containing an html file - yup that's it - you just did that all through a tiny markdown file! Feel free to add any more pages as you'd like!
 
-* Look in terminal at your template site directory and you should have a bunch of files. Theser were all automatically generated to make your life easier! Serve the website again and direct your attention to the beautiful nav bar at the top.
-
-* Don't you want to place/reorder your pages on the navbar??? Just add one line to your `.md` file (for both `About` and `Contact`), below `permalink: ` :
-`navigation_weight: `
-And enter in the position on the navbar you'd like it to be (index starting from one). This tells the navbar which link to positon goes first in your navbar!
-
-```
----
-layout: page
-title: Contact
-permalink: /contact/
-navigation_weight: [insert weight here]
----
-```
-
-Now we have to go into our html and change the navigation...
+* Look in terminal at your template site directory and you should have a bunch of files. Theser were all automatically generated to make your life easier! 
 
 
 ### 2. Adding Posts
