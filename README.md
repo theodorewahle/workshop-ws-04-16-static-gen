@@ -133,8 +133,35 @@ print_hi('Tom')
 
 ### 3. Using CSS, SASS JS, images and other assets 
 
-* Just add the asset to the folder `_site\assets\` 
-* If it's a stylesheet reference it in `<head>` in `_layouts/default.html` 
+* Just add the asset to the folder `assets\`, you may have to create an `assets` folder in your root directory
+* Try adding an image to your `index.md` right now
+* If it's a stylesheet reference it in `<head>` in `_layouts/default.html`
+* If you don't have a `_layouts` folder, create one now and make a `default.html` file with the following code:
+```
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>{{ page.title }}</title>
+    <link rel="stylesheet" href="/css/style.css">
+  </head>
+  <body>
+    <nav>
+      <a href="/">Home</a>
+      <a href="/blog/">Blog</a>
+    </nav>
+    <h1>{{ page.title }}</h1>
+    <section>
+      {{ content }}
+    </section>
+    <footer>
+      &copy; to me
+    </footer>
+  </body>
+</html>
+```
+* Now add the stylesheet!
+
 ```
 <!doctype html>
 <html>
