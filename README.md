@@ -58,21 +58,21 @@ Let's say you want to create a static site from scratch. Jekyll's templates allo
 
 1. Use the command line to make a new directory. You will be placing all the files for your static site into this directory.
 
-* `mkdir [insert_your_directory_name]` 
+* `mkdir [insert_your_directory_name]` :dizzy:
  
 2. `cd` into your newly created directory.
 
 3. Create your Jekyll site with the following command:
 
-* `jekyll new template_site`
+* `jekyll new template_site` :dizzy:
 
 4. `cd` into the directory with your new site:
 
-* `cd template_site`
+* `cd template_site` :dizzy:
 
 5. Host it locally!
 
-* `jekyll serve`
+* `jekyll serve` :dizzy:
 
 6. Visit localhost:4000 to check out your new site! 
 
@@ -88,7 +88,7 @@ Now let's try making a couple modifications to it
 
 * Now let's try adding that page - Ready for some HTML!? No? That's fine cause we won't be touching ANY HTML to add a page! Begin by making a new markdown (`.md`) file. I think a ***contact*** page would be useful, don't you? 
 
-* Create a contact page: `touch contact.md`
+* Create a contact page: `touch contact.md` :dizzy:
 
 * Now copy the following code segment:
 ```
@@ -123,8 +123,8 @@ Now we have to go into our html and change the navigation...
 
 ### 2. Adding Posts
 
-* The process for adding new posts is very similar to that of sites, start by opening the the `_posts` folder. 
-* Create a new file with the title: `YYYY-MM-DD-file-name-here.markdown` and add the following code
+* The process for adding new posts is very similar to that of sites, start by opening the the `_posts` folder. :dizzy:
+* Create a new file with the title: `YYYY-MM-DD-file-name-here.markdown` and add the following code :dizzy:
 ```
 ---
 layout: post
@@ -148,8 +148,8 @@ print_hi('Tom')
 
 ### 3. Using CSS, SASS JS, images and other assets 
 
-* Just add the asset to the folder `_site\assets\` 
-* If it's a stylesheet reference it in `<head>` in `_layouts/default.html`
+* Just add the asset to the folder `_site\assets\` :dizzy:
+* If it's a stylesheet reference it in `<head>` in `_layouts/default.html` :dizzy:
 ```
 <!doctype html>
 <html>
@@ -176,8 +176,8 @@ print_hi('Tom')
 
 #### 2. Build the site
 * We need Jekyll to build the site before we can view it. To do this, we can run two commands:
- * `jekyll build` - This will build our static site to a directory called `_site`.
- * `jekyll serve` - Does the same thing except it will rebuild any time you change the site and will run a local server a `http://localhost:4000`.
+ * `jekyll build` - This will build our static site to a directory called `_site`. :dizzy:
+ * `jekyll serve` - Does the same thing except it will rebuild any time you change the site and will run a local server a `http://localhost:4000`. :dizzy:
  * While developing the site it's better to use `jekyll serve` as it updates with any changes you make.
  * Go ahead and run `jekyll serve` and go to `http://localhost:4000` in your browser. You should see the site build and styled as it is below, though note that you will likely have different images, as the images are randomly pulled in from a photo database: 
 
