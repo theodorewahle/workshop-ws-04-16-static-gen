@@ -86,7 +86,7 @@ Now let's try making a couple modifications to it
 
 * Now let's try adding that page - Ready for some HTML!? No? That's fine cause we won't be touching ANY HTML to add a page! Begin by making a new markdown (`.md`) file. I think a ***contact*** page would be useful, don't you? 
 
-* `touch contact.md`
+* Create a contact page: `touch contact.md`
 
 * Now copy the following code segment:
 ```
