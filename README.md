@@ -274,8 +274,6 @@ Here's a resource for [github markdown](https://guides.github.com/features/maste
 
 ## Reflection
 
-*2 questions for the workshop participants to answer (very short answer) when they submit the workshop. These should try to get at something core to the workshop, the what and the why.*
-
 * What are the benefits of using a static site?
 * Can you think of some times when it might be more beneficial to use a static site than a dynamic site?
 
