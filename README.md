@@ -179,7 +179,7 @@ print_hi('Tom')
 #### 3. Learn Liquid :shower:
 
 Liquid is a templating language specific to Jekyll. It has three main parts: objects, tags, and filters.
-  ##### * Objects:
+  ##### Objects:
    * Objects are denoted by double curly braces and tell Liquid where to output content. This can be helpful for variables that are consistent throughout the website such as `site_name`
    * Let's go ahead and try these out. At the top of your `index.html` file add the following:
 ```
@@ -197,7 +197,8 @@ site_name: Static Site Demo
   </header>
 ```
  * Awesome! Now if we had multiple pages or repeated the same element, we only have to change it in one place
-  ##### * Tags:
+ 
+  ##### Tags:
    * Tags are denoted by curly braces and percent signs: `{%` and `%}`. Tags control the logic and control flow for the project.
    * We'll start by implementing a for loop into our webpage to make laying out our images easier
    * First let's add the links to our images as a list in the same location we added our `site_name` variable:
@@ -205,15 +206,15 @@ site_name: Static Site Demo
  ---
 site_name: Static Site Demo
 image_links:
-   - https://cdn.pixabay.com/photo/2019/04/09/15/55/landscape-4114839_1280.jpg
-   - https://cdn.pixabay.com/photo/2019/04/02/10/58/oldtimer-4097480_1280.jpg
-   - https://cdn.pixabay.com/photo/2019/03/31/21/43/the-dark-hedges-4094148_1280.jpg
-   - https://cdn.pixabay.com/photo/2019/03/31/19/49/mountain-4093853_1280.jpg
-   - https://cdn.pixabay.com/photo/2019/04/11/12/34/sea-4119698_1280.jpg
-   - https://cdn.pixabay.com/photo/2019/04/03/18/37/oldtimer-4101076_1280.jpg
-   - https://cdn.pixabay.com/photo/2019/04/07/11/24/landscape-4109455_1280.jpg
-   - https://cdn.pixabay.com/photo/2019/04/10/18/08/black-4117714_1280.jpg
-   - https://cdn.pixabay.com/photo/2019/04/07/11/24/spa-4109456_1280.jpg
+  - https://picsum.photos/1200/900/?random=1
+  - https://picsum.photos/1200/900/?random=2
+  - https://picsum.photos/1200/900/?random=3
+  - https://picsum.photos/1200/900/?random=4
+  - https://picsum.photos/1200/900/?random=5
+  - https://picsum.photos/1200/900/?random=6
+  - https://picsum.photos/1200/900/?random=7
+  - https://picsum.photos/1200/900/?random=8
+  - https://picsum.photos/1200/900/?random=9
   ---
  ```
    * Next, let's get rid of all the messy html in our `images-container` and replace it with a simple for loop:
@@ -230,23 +231,23 @@ image_links:
   * First we'll add a variable to the top of our html called `show_bio` and set it to `false`
   * Next we can surround our `bio-container` with an if statement:
 ```
-                {% if page.show_bio %}
-                    <div id="bio-container">
-                        ...
-                    </div>
-                {% endif %}
+{% if page.show_bio %}
+    <div id="bio-container">
+        ...
+    </div>
+{% endif %}
 ```
   * This now allows us to decide whether or not we want to show our biography by simply adjusting the `show_bio` variable
   
-  ##### * Filters
+  ##### Filters
    * Filters change the output of a Liquid object. They must used within an output and are separated by a |, much like pipes used in unix. 
    * Let's convert our `site_name` to uppercase letters by utilizing a pipe in the header file:
 ```
 <header>
-        <h1>{{page.site_name | upcase }}</h1>
-        <nav id="navbar">
-            ...
-        </nav>
+  <h1>{{page.site_name | upcase }}</h1>
+  <nav id="navbar">
+      ...
+  </nav>
 </header>
 ```
 
