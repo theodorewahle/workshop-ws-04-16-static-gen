@@ -268,7 +268,7 @@ image_links:
 * [ ] How to install Jekyll to your computer
 * [ ] Creating a static site using Jekyll templates
 * [ ] How to turn a pre-existing site into a static site with Jekyll
-* [ ] Comfortable with objects, tags, and filters in the Liquid templating language
+* [ ] How to work with objects, tags, and filters in the Liquid templating language
 
 ## Extra Credit
 
