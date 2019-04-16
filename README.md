@@ -6,7 +6,7 @@ Static sites respond to requests much faster :horse_racing: than dynamic ones, p
 
 **_*Static site generators*_** allow an entire site to be built in one go on your computer before being put on the server. 
 
-There are many different static site generators out there, but today we’re going to be working with a static site generator called **Jekyll**.
+There are many different static site generators out there, but today we’re going to be working with a static site generator called **Jekyll**. :sparkles:
 
 **Jekyll** is the static site generator behind the CS 52 course website, is integrated into GitHub, and is a pretty popular choice among static site generators these days.
 
