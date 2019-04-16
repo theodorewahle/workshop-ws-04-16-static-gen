@@ -42,9 +42,9 @@ For use case #2, we'll be transforming a typical HTML & CSS photo gallery site i
 
 3. Install Ruby `brew install ruby` :gem:
 
-4. Install Jekyll `sudo gem install jekyll` :gem:
+4. Install Jekyll `gem install jekyll` :gem:
 
-5. Install Jekyll Bundler `sudo gem install bundler` :gem:
+5. Install Jekyll Bundler `gem install bundler` :gem:
 
 ### Check Jekyll
 
