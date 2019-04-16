@@ -66,7 +66,7 @@ Let's say you want to create a static site from scratch. Jekyll's templates allo
 
 * `jekyll new template_site` :dizzy:
 
-4. `cd` into the directory with your new site:
+4. `cd` into the directory with your new site: :dizzy:
 
 * `cd template_site` :dizzy:
 
