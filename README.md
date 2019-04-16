@@ -20,7 +20,7 @@ We’ll be going over two different use cases of Jekyll for static site generati
 
 For use case #1, we will be making a personal portfolio website. :information_desk_person:
 
-![](img/u14.png)
+![](img/u14.PNG)
 
 For use case #2, we'll be transforming a typical HTML & CSS photo gallery site into a Jekyll site, and updating some functionalities on the site using Liquid. :camera:
 
