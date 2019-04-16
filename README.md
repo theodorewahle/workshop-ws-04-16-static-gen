@@ -88,7 +88,7 @@ Now let's try making a couple modifications to it
 
 * Now let's try adding that page - Ready for some HTML!? No? That's fine cause we won't be touching ANY HTML to add a page! Begin by making a new markdown (`.md`) file. I think a ***contact*** page would be useful, don't you? 
 
-* Create a contact page: `touch contact.md` :dizzy:
+* Create a contact page: `touch contact.md` 
 
 * Now copy the following code segment:
 ```
@@ -108,8 +108,8 @@ Pudding chocolate bar fruitcake dessert fruitcake. Macaroon tart jelly-o apple p
 
 ### 2. Adding Posts
 
-* The process for adding new posts is very similar to that of sites, start by opening the the `_posts` folder. :dizzy:
-* Create a new file with the title: `YYYY-MM-DD-file-name-here.markdown` and add the following code :dizzy:
+* The process for adding new posts is very similar to that of sites, start by opening the the `_posts` folder.
+* Create a new file with the title: `YYYY-MM-DD-file-name-here.markdown` and add the following code 
 ```
 ---
 layout: post
@@ -133,8 +133,8 @@ print_hi('Tom')
 
 ### 3. Using CSS, SASS JS, images and other assets 
 
-* Just add the asset to the folder `_site\assets\` :dizzy:
-* If it's a stylesheet reference it in `<head>` in `_layouts/default.html` :dizzy:
+* Just add the asset to the folder `_site\assets\` 
+* If it's a stylesheet reference it in `<head>` in `_layouts/default.html` 
 ```
 <!doctype html>
 <html>
@@ -161,7 +161,7 @@ print_hi('Tom')
 
 #### 2. Build the site
 * We need Jekyll to build the site before we can view it. To do this, we can run two commands:
- * `jekyll build` - This will build our static site to a directory called `_site`. :dizzy:
+ * `jekyll build` - This will build our static site to a directory called `_site`. 
  * `jekyll serve` - Does the same thing except it will rebuild any time you change the site and will run a local server a `http://localhost:4000`. :dizzy:
  * While developing the site it's better to use `jekyll serve` as it updates with any changes you make.
  * Go ahead and run `jekyll serve` and go to `http://localhost:4000` in your browser. You should see the site build and styled as it is below, though note that you will likely have different images, as the images are randomly pulled in from a photo database: 
