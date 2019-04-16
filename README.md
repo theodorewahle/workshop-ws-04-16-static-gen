@@ -36,11 +36,11 @@ For use case #2, we'll be transforming a typical HTML & CSS photo gallery site i
 
 ### Mac 
 
-1. In terminal, install Xcode command line tools: `xcode-select --install`
+1. In terminal, install Xcode command line tools: `xcode-select --install` :gem:
 
 2. You should have homebrew by now so we're not going over that
 
-3. Install Ruby `brew install ruby`
+3. Install Ruby `brew install ruby` :gem:
 
 4. Install Jekyll `sudo gem install jekyll` :gem:
 
