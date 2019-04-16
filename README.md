@@ -10,8 +10,6 @@ There are many different static site generators out there, but today we’re goi
 
 ## Overview
 
-![Alt Text](https://media.giphy.com/media/5wWf7H89PisM6An8UAU/giphy.gif)
-
 Today we’re going to show you how to generate a static sites using Jekyll.
 
 We’ll be going over two different use cases of Jekyll for static site generation:
@@ -179,7 +177,7 @@ print_hi('Tom')
  * `jekyll build` - This will build our static site to a directory called `_site`.
  * `jekyll serve` - Does the same thing except it will rebuild any time you change the site and will run a local server a `http://localhost:4000`.
  * While developing the site it's better to use `jekyll serve` as it updates with any changes you make.
- * Go ahead and run `jekyll serve` and go to `http://localhost:4000` in your browser. You should see the site build and styled as it is below: 
+ * Go ahead and run `jekyll serve` and go to `http://localhost:4000` in your browser. You should see the site build and styled as it is below, though note that you will likely have different images, as the images are randomly pulled in from a photo database: 
 
 ![](img/use2screenshot.png)
 
@@ -258,15 +256,11 @@ image_links:
 </header>
 ```
 
-:sunglasses: GitHub markdown files [support emoji notation](http://www.emoji-cheat-sheet.com/)
-
-Here's a resource for [github markdown](https://guides.github.com/features/mastering-markdown/).
-
 ## Deploy
 
-* First Build it: `jekyll build`
+* First build it: `jekyll build`
 * Then publish the project to Surge `surge _site`, or whatever your prefer (like GitHub Pages)
-* D E P L O Y E D
+* D E P L O Y E D :sunglasses:
 
 ## Summary / What you Learned
 
