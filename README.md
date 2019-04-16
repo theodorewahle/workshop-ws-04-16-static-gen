@@ -20,7 +20,7 @@ We’ll be going over two different use cases of Jekyll for static site generati
 
 For use case #1, we will be making a personal portfolio website. :information_desk_person:
 
-**INSERT COMPLETED USE CASE 1 IMAGE**
+![](img/u14.png)
 
 For use case #2, we'll be transforming a typical HTML & CSS photo gallery site into a Jekyll site, and updating some functionalities on the site using Liquid. :camera:
 
@@ -134,51 +134,12 @@ print_hi('Tom')
 ### 3. Using CSS, SASS JS, images and other assets 
 
 * Just add the asset to the folder `assets\`, you may have to create an `assets` folder in your root directory
-* Try adding an image to your `index.md` right now
-* If it's a stylesheet reference it in `<head>` in `_layouts/default.html`
-* If you don't have a `_layouts` folder, create one now and make a `default.html` file with the following code:
-```
-<!doctype html>
-<html lang="en">
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/css/style.css">
-  </head>
-  <body>
-    <nav>
-      <a href="/">Home</a>
-      <a href="/blog/">Blog</a>
-    </nav>
-    <h1>{{ page.title }}</h1>
-    <section>
-      {{ content }}
-    </section>
-    <footer>
-      &copy; to me
-    </footer>
-  </body>
-</html>
-```
-* Now add the stylesheet!
+* Try adding an image to your `index.md` right now!
 
-```
-<!doctype html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <title>{{ page.title }}</title>
-    <link rel="stylesheet" href="/assets/css/styles.css">
-  </head>
-  <body>
-    {% include navigation.html %}
-    {{ content }}
-  </body>
-</html>
-```
-* That's it.
-* No seriously, that's it. 
+### 4. Change the config to change the header, site title, footer, etc
 
+* Make changes as below in `config.yml`
+![](img/u13.PNG)
 
 ## Use Case #2: Using Jekyll to Turn a Pre-Existing Site into a Static Site
 
@@ -272,7 +233,8 @@ image_links:
 
 ## Deploy
 
-* First build it: `jekyll build`
+* serve it: `jekyll serve`
+*  build it: `jekyll build`
 * Then publish the project to Surge `surge _site`, or whatever your prefer (like GitHub Pages)
 * D E P L O Y E D :sunglasses:
 
