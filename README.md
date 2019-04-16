@@ -270,7 +270,11 @@ Here's a resource for [github markdown](https://guides.github.com/features/maste
 
 ## Summary / What you Learned
 
-* [ ] can be checkboxes
+* [ ] The benefits of using a static site
+* [ ] How to install Jekyll to your computer
+* [ ] Creating a static site using Jekyll templates
+* [ ] How to turn a pre-existing site into a static site with Jekyll
+* [ ] Comfortable with objects, tags, and filters in the Liquid templating language
 
 ## Extra Credit
 
@@ -281,10 +285,8 @@ Here's a resource for [github markdown](https://guides.github.com/features/maste
 
 ## Reflection
 
-*2 questions for the workshop participants to answer (very short answer) when they submit the workshop. These should try to get at something core to the workshop, the what and the why.*
-
-* [ ] 2 reflection questions
-* [ ] 2 reflection questions
+* What are the benefits of using a static site?
+* Can you think of some times when it might be more beneficial to use a static site than a dynamic site?
 
 
 ## Resources
